@@ -5,9 +5,7 @@ import PackageDescription
 let package = Package(
     name: "AnyCodable",
     platforms: [
-        .iOS(.v10),
-        .macOS(.v10_11),
-        .tvOS(.v10)
+        .iOS(.v14)
     ],
     products: [
         .library(name: "AnyCodable", targets: ["AnyCodable"]),
